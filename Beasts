@@ -1,0 +1,14 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Moat's script", "DarkTheme")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("Beast script", "FREE BEAST SCRIPT", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/KynLT9dm'),true))()
+    end)
+
+    MainSection:NewButton("Rape child", "Rape pelople", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/NWW8JtFY'),true))()
+    end)
